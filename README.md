@@ -1,14 +1,21 @@
 # AbrChallenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## Setup
 
-## Development server
+Install both packages. `npm i` and `cd server && npm i`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Concurrently run API and front-end;
 
-## Code scaffolding
+Run `npm run dev` to start front-end server and api server concurrently. Access application at http://localhost:4200/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Front-End Development server
+
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## API Server
+Located in /server
+
+Run `npm run start:api` to start on port 5001.
 
 ## Build
 
